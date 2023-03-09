@@ -153,6 +153,11 @@ li a:hover {
 
 
 	}
+
+	/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
 	
 @media (min-width: 555px) {
 	h2 {
