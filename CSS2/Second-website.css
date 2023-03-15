@@ -70,6 +70,15 @@ li a:hover {
 
 	}
 
+	.movies {
+		font-family: 'Tilt Warp', cursive;
+		display: flex;
+		justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
+	    background-color: floralwhite;
+	    font-size: 1rem;
+	}
 	.lady-bird {
 		font-family: 'Tilt Warp', cursive;
 		display: flex;
@@ -146,6 +155,16 @@ li a:hover {
 	    font-size: 1rem;
 	}
 
+	.restaurants {
+			font-family:'Cinzel', serif;;
+			display: flex;
+			justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
+	    background-color: floralwhite;
+	    font-size: 1rem;
+	}
+
 	.footer {
 		background: rosybrown;
 		color: black;
@@ -153,6 +172,26 @@ li a:hover {
 
 
 	}
+
+	/*Media sections*/
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
 
 	/* For mobile phones: */
 [class*="col-"] {
