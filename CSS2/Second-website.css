@@ -37,7 +37,15 @@ img {
 	max-width: 20rem;
 }
 
-
+.topnav {
+			color: floralwhite;
+      background-color: rosybrown;
+      padding: 0;
+      display: block;
+      margin: 0;
+      border-bottom: 3px solid #FFF;
+      float: left;
+}
 
 ul {
   list-style-type: none;
@@ -71,23 +79,6 @@ li a:hover {
 }
 
 	.title {
-		font-family:'Cinzel', serif;
-		display: flex;
-		justify-content: center; 
-	    align-items: center;
-	    flex-direction: column; 
-	    background-color: burlywood ;
-	    border-style: solid;
-	    border-color: rosybrown;
-	    border-width: 20px; 
-	    border-radius: 1em;
-		border-top: thick;
-		padding: 3em;
-		max-width: 700px;
-		outline-color: black;
-		outline-style: solid;
-		outline-width: thick;
-		font-size: 1rem;
 
 
 	}
@@ -195,6 +186,26 @@ li a:hover {
 
 	}
 
+	main {
+		font-family:'Cinzel', serif;
+		display: flex;
+		justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
+	    background-color: burlywood ;
+	    border-style: solid;
+	    border-color: rosybrown;
+	    border-width: 20px; 
+	    border-radius: 1em;
+		border-top: thick;
+		padding: 3em;
+		max-width: 700px;
+		outline-color: black;
+		outline-style: solid;
+		outline-width: thick;
+		font-size: 1rem;
+	}
+
 	/*figure and .gallery-image styles*/
 
 .gallery-image {
@@ -209,6 +220,22 @@ li a:hover {
 
 .gallery-image img {
   width: 100%;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+button {
+  min-width: 5rem;
+
+}
+
+.hideThis {
+  display: none;
 }
 
 	/*Media sections*/
