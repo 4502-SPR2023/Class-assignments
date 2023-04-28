@@ -53,9 +53,7 @@ ul {
   padding: 6;
   overflow: hidden;
   background-color: floralwhite;
-  position: fixed ;
   top: 15;
-  width: 56.4%;
   font-color: black;
 }
 
@@ -181,7 +179,7 @@ li a:hover {
 	.footer {
 		background: rosybrown;
 		color: black;
-		padding: 50px 5%;
+		padding: 10px 5%;
 
 
 	}
