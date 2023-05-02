@@ -35,6 +35,7 @@ img {
 	display: flex;
 	justify-content: center;
 	max-width: 20rem;
+	margin: auto;
 }
 
 .topnav {
@@ -188,7 +189,6 @@ li a:hover {
 		font-family:'Cinzel', serif;
 		display: flex;
 		justify-content: center; 
-	    align-items: center;
 	    flex-direction: column; 
 	    background-color: burlywood ;
 	    border-style: solid;
@@ -217,7 +217,7 @@ li a:hover {
 }
 
 .gallery-image img {
-  width: 100%;
+  margin: auto;
 }
 
 .button_holder {
